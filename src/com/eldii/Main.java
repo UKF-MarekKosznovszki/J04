@@ -101,11 +101,10 @@ public class Main {
         String info =YELLOW_BOLD_BRIGHT+ predelovac + "\n" + "Príkazy:" + "\n" + "(A)dd\n" + "(E)dit\n" +
                 "(D)elete\n" + "(S)earch\n" + "(L)ist\n" + "(Q)uit\n" + predelovac+RESET;
 
-        boolean koniec = false;
         int uuid = 0;
 
         System.out.println(info);
-        while (!koniec) {
+        while (true) {
             switch (in.next()) {
                 case "A":
                 case "a":
